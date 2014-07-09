@@ -47,7 +47,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="navbar-brand nav" id="brand">
-                        <a href="index-google-map-fullscreen.html"><img src="assets/img/logo.png" alt="brand"></a>
+                        <a href="index-slider-horizontal-search-box-floated.html"><img src="assets/img/logo.png" alt="brand"></a>
                     </div>
                 </div>
                 <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
@@ -133,67 +133,57 @@
                 <div class="col-md-3 col-sm-3">
                     <section id="sidebar">
                         <aside id="edit-search">
-                            <header><h3>Search Properties</h3></header>
+                            <header><h3>Buscar Propiedades</h3></header>
                             <form role="form" id="form-sidebar" class="form-search" action="properties-listing.html">
                                 <div class="form-group">
                                     <select name="type">
-                                        <option value="">Status</option>
-                                        <option value="1">Rent</option>
-                                        <option value="2">Sale</option>
-                                    </select>
-                                </div><!-- /.form-group -->
-                                <div class="form-group">
-                                    <select name="country">
-                                        <option value="">Country</option>
-                                        <option value="1">France</option>
-                                        <option value="2">Great Britain</option>
-                                        <option value="3">Spain</option>
-                                        <option value="4">Russia</option>
-                                        <option value="5">United States</option>
-                                    </select>
-                                </div><!-- /.form-group -->
-                                <div class="form-group">
-                                    <select name="city">
-                                        <option value="">City</option>
-                                        <option value="1">New York</option>
-                                        <option value="2">Los Angeles</option>
-                                        <option value="3">Chicago</option>
-                                        <option value="4">Houston</option>
-                                        <option value="5">Philadelphia</option>
-                                    </select>
-                                </div><!-- /.form-group -->
-                                <div class="form-group">
-                                    <select name="district">
-                                        <option value="">District</option>
-                                        <option value="1">Manhattan</option>
-                                        <option value="2">The Bronx</option>
-                                        <option value="3">Brooklyn</option>
-                                        <option value="4">Queens</option>
-                                        <option value="5">Staten Island</option>
+                                        <option value="">Tipo de Operación</option>
+                                        <option value="1">Venta</option>
+                                        <option value="2">Renta</option>
                                     </select>
                                 </div><!-- /.form-group -->
                                 <div class="form-group">
                                     <select name="property-type">
-                                        <option value="">Property Type</option>
-                                        <option value="1">Apartment</option>
-                                        <option value="2">Condominium</option>
-                                        <option value="3">Cottage</option>
-                                        <option value="4">Flat</option>
-                                        <option value="5">House</option>
+                                        <option value="">Tipo de Propiedad</option>
+                                        <option value="1">Casa</option>
+                                        <option value="2">Departamento</option>
+                                        <option value="3">Terreno</option>
                                     </select>
                                 </div><!-- /.form-group -->
+                                <div class="form-group">
+                                    <select name="country">
+                                        <option value="">Pais</option>
+                                        <option value="1">México</option>
+                                        <option value="2">USA</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+                                <div class="form-group">
+                                    <select name="city">
+                                        <option value="">Estado</option>
+                                        <option value="1">Sonora</option>
+                                        <option value="2">Baja California</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+                                <div class="form-group">
+                                    <select name="district">
+                                        <option value="">Ciudad</option>
+                                        <option value="1">Hermosillo</option>
+                                        <option value="2">Obregon</option>
+                                    </select>
+                                </div><!-- /.form-group -->
+
                                 <div class="form-group">
                                     <div class="price-range">
                                         <input id="price-input" type="text" name="price" value="1000;299000">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-default">Search Now</button>
+                                    <button type="submit" class="btn btn-default">Buscar</button>
                                 </div><!-- /.form-group -->
                             </form><!-- /#form-map -->
                         </aside><!-- /#edit-search -->
                         <aside id="featured-properties">
-                            <header><h3>Featured Properties</h3></header>
+                            <header><h3>Propiedades Destacadas</h3></header>
                             <div class="property small">
                                 <a href="property-detail.html">
                                     <div class="property-image">
@@ -231,20 +221,9 @@
                                 </div>
                             </div><!-- /.property -->
                         </aside><!-- /#featured-properties -->
-                        <aside id="our-guides">
-                            <header><h3>Our Guides</h3></header>
-                            <a href="#" class="universal-button">
-                                <figure class="fa fa-home"></figure>
-                                <span>Buying Guide</span>
-                                <span class="arrow fa fa-angle-right"></span>
-                            </a><!-- /.universal-button -->
-                            <a href="#" class="universal-button">
-                                <figure class="fa fa-umbrella"></figure>
-                                <span>Right Insurance for You</span>
-                                <span class="arrow fa fa-angle-right"></span>
-                            </a><!-- /.universal-button -->
-                        </aside><!-- /#our-guide -->
                     </section><!-- /#sidebar -->
+                </div><!-- /.col-md-3 -->
+                <!-- end Sidebar -->
                 </div><!-- /.col-md-3 -->
                 <!-- end Sidebar -->
             </div><!-- /.row -->
@@ -259,18 +238,18 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-3">
                             <article>
-                                <h3>About Us</h3>
+                                <h3>Acerca de Nosotros</h3>
                                 <p>Vel fermentum ipsum. Suspendisse quis molestie odio. Interdum et malesuada fames ac ante ipsum
                                     primis in faucibus. Quisque aliquet a metus in aliquet. Praesent ut turpis posuere, commodo odio
                                     id, ornare tortor
                                 </p>
                                 <hr>
-                                <a href="#" class="link-arrow">Read More</a>
+                                <a href="#" class="link-arrow">Leer Mas</a>
                             </article>
                         </div><!-- /.col-sm-3 -->
                         <div class="col-md-3 col-sm-3">
                             <article>
-                                <h3>Recent Properties</h3>
+                                <h3>Propiedades Recientes</h3>
                                 <div class="property small">
                                     <a href="property-detail.html">
                                         <div class="property-image">
@@ -299,9 +278,9 @@
                         </div><!-- /.col-sm-3 -->
                         <div class="col-md-3 col-sm-3">
                             <article>
-                                <h3>Contact</h3>
+                                <h3>Contacto</h3>
                                 <address>
-                                    <strong>Your Company</strong><br>
+                                    <strong>Bienes Raices</strong><br>
                                     4877 Spruce Drive<br>
                                     West Newton, PA 15089
                                 </address>
@@ -311,13 +290,13 @@
                         </div><!-- /.col-sm-3 -->
                         <div class="col-md-3 col-sm-3">
                             <article>
-                                <h3>Useful Links</h3>
+                                <h3>Links Generales</h3>
                                 <ul class="list-unstyled list-links">
-                                    <li><a href="#">All Properties</a></li>
-                                    <li><a href="#">Privacy Policy</a></li>
-                                    <li><a href="#">Login and Register Account</a></li>
+                                    <li><a href="#">Todas las Propiedades</a></li>
+                                    <li><a href="#">Politicas de Privacidad</a></li>
+                                    <li><a href="#">Acceso o Registro</a></li>
                                     <li><a href="#">FAQ</a></li>
-                                    <li><a href="#">Terms and Conditions</a></li>
+                                    <li><a href="#">Terminos y Condiciones</a></li>
                                 </ul>
                             </article>
                         </div><!-- /.col-sm-3 -->
@@ -327,8 +306,8 @@
             <section id="footer-thumbnails" class="footer-thumbnails"></section><!-- /#footer-thumbnails -->
             <section id="footer-copyright">
                 <div class="container">
-                    <span>Copyright © 2013. All Rights Reserved.</span>
-                    <span class="pull-right"><a href="#page-top" class="roll">Go to top</a></span>
+                    <span>Copyright © 2013. Derechos Reservados.</span>
+                    <span class="pull-right"><a href="#page-top" class="roll">Ir arriba</a></span>
                 </div>
             </section>
         </div><!-- /.inner -->
