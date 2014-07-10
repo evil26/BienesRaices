@@ -31,10 +31,8 @@
                     <figure><strong>Email:</strong>zoner@bienesraices.com</figure>
                 </div>
                 <div class="user-area">
-                    <a href="create-agency.html" class="promoted">Crear Agencia</a>
                     <a href="create-account.html" class="promoted"><strong>Registrarme</strong></a>
-                    <a href="sign-in.html">Entrar</a>
-
+                    <a href="ingresar.html">Ingresar</a>
                 </div>
             </div>
         </div>
@@ -56,8 +54,9 @@
                         </li>
                         <li class="has-child"><a href="#">Propiedades</a>
                             <ul class="child-navigation">
-                                <li><a href="property-detail.html">En Renta</a></li>
+                                <li><a href="properties-listing2.html">En Renta</a></li>                                
                                 <li><a href="properties-listing.html">En Venta</a></li>
+                                <li><a href="properties-listing.html">Ver todos</a></li>
                             </ul>
                         </li>
                         <li class="has-child"><a href="#">Agentes & Agencias</a>
@@ -102,25 +101,22 @@
                         </div>
                         <div class="radio" id="agent-switch" data-agent-state="">
                             <label>
-                                <input type="radio" id="account-type-agent" name="account-type" required>Agente
+                                <input type="radio" id="account-type-agent" name="account-type" required>Profesionales
                             </label>
                         </div>
                         <div id="agency" class="disabled">
                             <div class="form-group">
-                                <label for="account-agency">Selecciona tu Agencia:</label>
+                                <label for="account-agency">Selecciona tu actividad</label>
                                 <select name="account-agency" id="account-agency">
-                                    <option value="">Agency</option>
-                                    <option value="1">Estate+</option>
-                                    <option value="2">Northfolk Eastate</option>
-                                    <option value="3">Maximum Properties</option>
-                                    <option value="4">Edd's Homes</option>
-                                    <option value="5">Will & Scotch</option>
+                                    <option value="1">Agente</option>
+                                    <option value="2">Inmobiliaria</option>
+                                    <option value="3">Constructora</option>
                                 </select>
                             </div><!-- /.form-group -->
                         </div>
                         <hr>
                         <div class="form-group">
-                            <label for="form-create-account-full-name">Nombre completo:</label>
+                            <label for="form-create-account-full-name">Nombre:</label>
                             <input type="text" class="form-control" id="form-create-account-full-name" required>
                         </div><!-- /.form-group -->
                         <div class="form-group">
@@ -128,18 +124,14 @@
                             <input type="email" class="form-control" id="form-create-account-email" required>
                         </div><!-- /.form-group -->
                         <div class="form-group">
-                            <label for="form-create-account-password">ontraseña:</label>
+                            <label for="form-create-account-password">Contraseña:</label>
                             <input type="password" class="form-control" id="form-create-account-password" required>
                         </div><!-- /.form-group -->
                         <div class="form-group">
-                            <label for="form-create-account-confirm-password">Confirm Password:</label>
+                            <label for="form-create-account-confirm-password">Confirmar Contraseña:</label>
                             <input type="password" class="form-control" id="form-create-account-confirm-password" required>
                         </div><!-- /.form-group -->
-                        <div class="checkbox pull-left">
-                            <label>
-                                <input type="checkbox" id="account-type-newsletter" name="account-newsletter">Recibir Noticias
-                            </label>
-                        </div>
+
                         <div class="form-group clearfix">
                             <button type="submit" class="btn pull-right btn-default" id="account-submit">Crear Cuenta</button>
                         </div><!-- /.form-group -->
